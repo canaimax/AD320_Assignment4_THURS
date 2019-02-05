@@ -13,7 +13,7 @@ foreach($my_array as $category => $category_array)
 
         foreach($category_array as $item = > $user_item)
             {
-                echo "<li>$item</li>";
+                // echo "<li>$item</li>";
             }
 
         echo . "</ul>"
