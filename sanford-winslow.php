@@ -1,17 +1,18 @@
+
 <?php
 
-echo
-"<div display: inline-block'>"
+echo "Sanford Winslow<br>";
+echo "Assignment 4";
 
- require 'testData.php';
-  "<ul>";
- foreach($dataToPrintToScreen as $key => $value) {
+echo
+"<div display: inline-block>";
+require 'testData.php';
+$dataToPrintToScreen = get2dArray();
+foreach($dataToPrintToScreen as $key => $value) {
    echo "<h3>$key</h3>";
-   echo "<li>$value</li>";
+   echo "<ul><li>" . implode("</li><li>", $value) . "</li></ul>";
  }
-  "</ul>";
 
  "</div>";
-
 
  ?>
