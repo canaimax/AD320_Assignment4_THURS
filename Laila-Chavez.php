@@ -12,9 +12,9 @@ foreach($itemArray as $category => $category_array) {
         "<div style='border: 1px solid green;"
         . "margin: 0 auto;"
         . "padding: 10px;"
-        . "display: inline-block'>;"
-        . "<h3>$category</h3>;"
-        . "<ul>;"
+        . "display: inline-block;'>"
+        . "<h3>$category</h3>"
+        . "<ul>";
 
          foreach($category_array as $item) {
 
